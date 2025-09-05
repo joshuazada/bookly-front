@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion"
-import { Card} from "@/components/ui/card"
+import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
 const MotionCard = motion(Card)
@@ -15,7 +15,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
       >
-        <Button className="bg-pink-600">opa</Button>
+        <Button className="bg-green-600">oi</Button>
       </MotionCard>
     </div>
   )
